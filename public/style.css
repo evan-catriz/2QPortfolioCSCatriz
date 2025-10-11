@@ -13,9 +13,26 @@ body{
         justify-content: center;
         flex-direction:column;
         height: 100vh;
-        background-color: 	#FFA9A9;
-         background: linear-gradient(to right, #FF7974, #FFA9A9);
+        animation: color-change 3s infinite alternate;
     
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #FF6962;
+  }
+  25% {
+    background-color: #FF7974;
+  }
+  50% {
+    background-color: #FF8986;
+  }
+  75% {
+    background-color: #FF9997;
+  }
+  100% {
+    background-color: #FFA9A9;
+  }
 }
 
 .p1 {
