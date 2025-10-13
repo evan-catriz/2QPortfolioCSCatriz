@@ -131,3 +131,8 @@ tr:hover{
     box-shadow: 0 0 25px #FFE08E;
      transform: translateY(-3px);
 }
+
+p, h1, h2, h3, h4, table, td, a {
+                color: rgb(21, 21, 21);
+                text-shadow: 1px 1px 2px #232323;
+            }
