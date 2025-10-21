@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, Sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E93479;
+    background-image: url("../assets/vaporwave.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header, footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #F9AC53;
+}
+#main-title{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: -3px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 5px #000000;
+}
+.intro{
+    font-size: 1.5em;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+section > img {
+    display: block;
+    width: 25vw;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.container img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+  }
+  a[target="_blank"] {
+    background-color: yellow;
+  }
+  a[href="/internal-page"] {
+    background-color: rgb(0, 248, 0);
+  }
+  a[href="#"] {
+    background-color: rgb(255, 88, 88);
+  }
+
+a:hover {
+    background-color:rgb(197, 224, 248);
+  }
+
+/* extra CSS */
+
+.container ul {
+
+    list-style-type: none; /* removes bullets */
+   
+    clear: left; /* removes effect of float:left */
+  
+    padding: 0; /* removes the spaces surrounding the li/s */
+  
+  }
+  
+  
+  .container ul li {
+  
+    width: 150px;
+  
+    padding: 5px;
+  
+    background-color: cornsilk;
+  
+    text-align: center;
+  
+    display: inline-block;
+  
+    border-radius: 0px 25px;
+  
+  }
